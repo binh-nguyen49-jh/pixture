@@ -3,6 +3,9 @@
 
     --text-light-blue-cl: #0d4363;
     --text-dark-blue-cl: #0c2539;
+    --text-gray-1-cl: #d6d6d6;
     --text-gray-2-cl: #677278;
     --text-gray-3-cl: #5c5b61;
+
+    --primary-font: font-family: 'Montserrat', sans-serif;
 }

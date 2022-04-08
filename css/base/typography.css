@@ -1,2 +1,180 @@
 /* font-size, line-height, font-family, etc */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/helvetica-2');
+@font-face {
+    font-family: "Museo Sans Rounded";
+    src: url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.eot");
+    src: url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.svg#Museo Sans Rounded 700") format("svg");
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.title {
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+.subtitle {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-weight: 2.5rem;
+}
+
+.description {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+
+.date {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+.scroll-text {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 10px;
+    color: var(--text-light-blue-cl);
+}
+
+.scroll-text.--active {
+    font-size: 12px;
+    color: white;
+}
+
+.masthead .title {
+    font-size: 13.2rem;
+    font-weight: 700;
+}
+
+.masthead .description {
+    font-size: 1.3rem;
+}
+
+.card .title {
+    font-size: 4.26rem;
+    line-height: 6.81rem;
+}
+
+.card .description {
+    font-size: 2.21rem;
+    line-height: 4.09rem;
+    color: var(--text-gray-2-cl);
+}
+
+.card .comment {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 2.05rem;
+}
+
+.card .like {
+    font-family: 'Museo Sans Rounded', sans-serif;
+    font-size: 2.05rem;
+}
+
+.passion .subtitle {
+    font-size: 3rem;
+}
+
+.details .description {
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: var(--text-gray-1-cl);
+}
+
+.features .title {
+    font-size: 2.4rem;
+    line-height: 5.41rem;
+}
+
+.features .description {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    color: var(--text-gray-1-cl);
+}
+
+.credits .title {
+    font-size: 7.2rem;
+}
+
+.credits .subtitle {
+    font-size: 3rem;
+}
+
+footer .subtitle{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: var(--text-dark-blue-cl);
+}
+
+footer .link, footer .description {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #ffffff;
+}
+
+.footer .text {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    color: var(--text-gray-3-cl);
+}
+
+@media only screen and (min-width:1281px) {
+    .subtitle {
+        font-size: 2.4rem;
+    }
+
+    .description {
+        font-size: 1.3rem;
+    }
+
+    .card .title {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+
+    .card .description {
+        font-size: 1.3rem;
+        line-height: 2.4rem;
+    }    
+
+    .card .comment, .card .like {
+        font-size: 1.2rem;
+    }
+
+    .details .description, .credits .description {
+        font-size: 1.3rem;
+    }
+
+    .credits .title {
+        font-size: 4rem;
+    }
+
+    .credits .subtitle { 
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+
+    footer .subtitle {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+
+    footer .link, footer .description{
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+    }
+}
