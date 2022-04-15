@@ -2,318 +2,318 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/helvetica-2');
 @font-face {
-    font-family: "Museo Sans Rounded";
-    src: url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.eot");
-    src: url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.eot?#iefix") format("embedded-opentype"),
-        url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.woff2") format("woff2"),
-        url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.woff") format("woff"),
-        url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.ttf") format("truetype"),
-        url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.svg#Museo Sans Rounded 700") format("svg");
+  font-family: "Museo Sans Rounded";
+  src: url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.eot");
+  src: url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.svg#Museo Sans Rounded 700") format("svg");
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 .title {
-    font-family: var(--primary-font);
-    font-weight: 400;
+  font-family: var(--primary-font);
+  font-weight: 400;
 }
 
 .subtitle {
-    font-family: var(--primary-font);
-    font-weight: 700;
-    font-size: 1.6rem;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 
 .description, .link{
-    font-family: sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.8rem;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
 }
 
 .date {
-    font-family: var(--primary-font);
-    font-weight: 400;
+  font-family: var(--primary-font);
+  font-weight: 400;
 
-    font-size: 1.6rem;
-    line-height: 1.8rem;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
 }
 
 .scroll-text {
-    font-family: var(--primary-font);
-    font-weight: 400;
-    font-size: 8px;
-    color: var(--text-light-blue-cl);
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 8px;
+  color: var(--text-light-blue-cl);
 }
 
 .scroll-text.--active {
-    font-size: 10px;
-    color: white;
+  font-size: 10px;
+  color: white;
 }
 
 .masthead .title {
-    font-size: 5.5rem;
-    font-weight: 700;
-    color: white;
+  font-size: 5.5rem;
+  font-weight: 700;
+  color: white;
 }
 
 .masthead .subtitle {
-    color: white;
+  color: white;
 }
 
 .masthead .description {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-    color: white;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: white;
 }
 
 .worth .container > .title {
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
 }
 
 .card .title {
-    font-size: 2.5rem;
-    line-height: 6rem;
-    text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 6rem;
+  text-transform: uppercase;
 }
 
 .card .description {
-    color: var(--text-gray-2-cl);
+  color: var(--text-gray-2-cl);
 
-    font-size: 1.5rem;
-    line-height: 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .card .comment {
-    font-family: var(--primary-font);
-    font-weight: 400;
-    font-size: 1.5rem;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .card .like {
-    font-family: 'Museo Sans Rounded', sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 1.5rem;
+  font-family: 'Museo Sans Rounded', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
 }
 
 .passion .subtitle {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
 .details .description {
-    font-family: sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-    color: var(--text-gray-1-cl);
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: var(--text-gray-1-cl);
 }
 
 .features .title {
-    font-size: 1.3rem;
-    line-height: 2rem;
-    color: white;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: white;
 }
 
 .features .description {
-    font-size: 1rem;
-    line-height: 1.2rem;
-    color: var(--text-gray-1-cl);
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: var(--text-gray-1-cl);
 }
 
 .credits .title {
-    font-size: 4.3rem;
-    color: white;
+  font-size: 4.3rem;
+  color: white;
 }
 
 .credits .subtitle {
-    font-size: 2rem;
-    font-weight: 400;
-    color: white;
-    text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
 }
 .credits .description {
-    color: var(--text-gray-1-cl);
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+  color: var(--text-gray-1-cl);
+  font-size: 1.2rem;
+  line-height: 1.6rem;
 }
 
 footer .title{
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    color: var(--text-dark-blue-cl);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--text-dark-blue-cl);
 }
 
 footer .link, footer .description {
-    text-decoration: none;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #ffffff;
 }
 
 footer .link {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 footer .text {
-    font-family: 'Helvetica', sans-serif;
-    font-size: 1rem;
-    line-height: 1.6rem;
-    color: var(--text-gray-3-cl);
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: var(--text-gray-3-cl);
 }
 
 @media only screen and (min-width: 479px) {
-    
+  
 }
 
 @media only screen and (min-width:769px) { 
-    .subtitle {
-        font-size: 2.4rem;
-    }
-    
-    .description, .link{
-        font-size: 1.6rem;
-        line-height: 1.8rem;
-    }
-    
-    .date {
-        font-size: 1.6rem;
-        line-height: 1.8rem;
-    }
-    
-    .scroll-text {
-        font-size: 10px;
-    }
-    
-    .scroll-text.--active {
-        font-size: 12px;
-    }
-    
-    .masthead .title {
-        font-size: 11rem;
-        line-height: 11rem;
-    }  
-    .masthead .description {
-        font-size: 1.6rem;
-        line-height: 2.5rem;
-    }
-    
-    .worth .container > .title {
-        font-size: 2rem;
-    }
-    
-    .card .title {
-        font-size: 4.26rem;
-        line-height: 6.81rem;
-    }
-    
-    .card .description {
-        font-size: 2.21rem;
-        line-height: 3rem;
-    }
-    
-    .card .comment {
-        font-size: 2.05rem;
-    }
-    
-    .card .like {
-        font-size: 2.05rem;
-    }
-    
-    .passion .subtitle {
-        font-size: 3rem;
-    }
-    
-    .details .description {
-        font-size: 1.8rem;
-        line-height: 2.5rem;
-    }
-    
-    .features .title {
-        font-size: 2.4rem;
-        line-height: 2.6rem;
-    }
-    
-    .features .description {
-        font-size: 1.3rem;
-        line-height: 2.5rem;
-    }
-    
-    .credits .title {
-        font-size: 7.2rem;
-    }
-    
-    .credits .subtitle {
-        font-size: 3rem;
-    }
-    .credits .description {
-        font-size: 1.6rem;
-        line-height: 2.5rem;
-    }
-    
-    footer .title{
-        font-size: 1.8rem;
-        line-height: 3rem;
-    }
-    
-    footer .link, footer .description {
-        font-size: 1.8rem;
-        line-height: 3rem;
-    }
-    
-    footer .text {
-        font-size: 1.2rem;
-        line-height: 2.2rem;
-    }    
+  .subtitle {
+    font-size: 2.4rem;
+  }
+  
+  .description, .link{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+  
+  .date {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+  
+  .scroll-text {
+    font-size: 10px;
+  }
+  
+  .scroll-text.--active {
+    font-size: 12px;
+  }
+  
+  .masthead .title {
+    font-size: 11rem;
+    line-height: 11rem;
+  }  
+  .masthead .description {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  
+  .worth .container > .title {
+    font-size: 2rem;
+  }
+  
+  .card .title {
+    font-size: 4.26rem;
+    line-height: 6.81rem;
+  }
+  
+  .card .description {
+    font-size: 2.21rem;
+    line-height: 3rem;
+  }
+  
+  .card .comment {
+    font-size: 2.05rem;
+  }
+  
+  .card .like {
+    font-size: 2.05rem;
+  }
+  
+  .passion .subtitle {
+    font-size: 3rem;
+  }
+  
+  .details .description {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+  
+  .features .title {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+  }
+  
+  .features .description {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
+  
+  .credits .title {
+    font-size: 7.2rem;
+  }
+  
+  .credits .subtitle {
+    font-size: 3rem;
+  }
+  .credits .description {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  
+  footer .title{
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  
+  footer .link, footer .description {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  
+  footer .text {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+  }  
 }
 
 @media only screen and (min-width:1025px) {
-    .subtitle {
-        font-size: 2.4rem;
-    }
+  .subtitle {
+    font-size: 2.4rem;
+  }
 
-    .description {
-        font-size: 1.3rem;
-    }
+  .description {
+    font-size: 1.3rem;
+  }
 
-    .card .title {
-        font-size: 2.5rem;
-        line-height: 4rem;
-    }
+  .card .title {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
 
-    .card .description {
-        font-size: 1.3rem;
-        line-height: 2.4rem;
-    }    
+  .card .description {
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+  }  
 
-    .card .comment, .card .like {
-        font-size: 1.2rem;
-    }
+  .card .comment, .card .like {
+    font-size: 1.2rem;
+  }
 
-    .details .description, .credits .description {
-        font-size: 1.3rem;
-        line-height: 2.5rem;
-    }
+  .details .description, .credits .description {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
 
-    .credits .title {
-        font-size: 4rem;
-    }
+  .credits .title {
+    font-size: 4rem;
+  }
 
-    .credits .subtitle { 
-        font-size: 1.6rem;
-        line-height: 2.2rem;
-    }
+  .credits .subtitle { 
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
 
-    footer .subtitle {
-        font-size: 1.8rem;
-        line-height: 3rem;
-    }
+  footer .subtitle {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
 
-    footer .link, footer .description{
-        font-size: 1.8rem;
-        line-height: 3rem;
-    }
+  footer .link, footer .description{
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
 }

@@ -1,224 +1,224 @@
 /* small elements in website */
 .toggle-btn {
-    --icon-width: 20px;
-    --icon-height: 10px;
-    --bar-height: 3px;
-    --bar-radius: 2px;
-    --space: 6px;
+  --icon-width: 20px;
+  --icon-height: 10px;
+  --bar-height: 3px;
+  --bar-radius: 2px;
+  --space: 6px;
 
-    width: 65px;
-    height: 65px;
-    aspect-ratio: 1 / 1;
-    transition-duration: 0.5s;
-    cursor: pointer;
+  width: 65px;
+  height: 65px;
+  aspect-ratio: 1 / 1;
+  transition-duration: 0.5s;
+  cursor: pointer;
 
-    z-index: 5000001;
+  z-index: 5000001;
 
-    background-color: var(--purple-cl);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: var(--purple-cl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.576);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.576);
 }
 
 .burger-icon {
-    position: relative;
-    width: var(--icon-width);
-    height: var(--bar-height);
-    background-color: #ffffff;
-    border-radius: var(--bar-radius);
-    top: calc(var(--bar-height) / 2);
+  position: relative;
+  width: var(--icon-width);
+  height: var(--bar-height);
+  background-color: #ffffff;
+  border-radius: var(--bar-radius);
+  top: calc(var(--bar-height) / 2);
 }
 
 .burger-icon::before {
-    content: "";
-    position: absolute;
-    top: calc(0px - var(--space));
-    left: 0;
+  content: "";
+  position: absolute;
+  top: calc(0px - var(--space));
+  left: 0;
 
-    transition-duration: 0.5s;
-    width: var(--icon-width);
-    height: var(--bar-height);
-    background-color: #ffffff;
-    border-radius: var(--bar-radius);
+  transition-duration: 0.5s;
+  width: var(--icon-width);
+  height: var(--bar-height);
+  background-color: #ffffff;
+  border-radius: var(--bar-radius);
 }
 
 .burger-icon::after {
-    content: "";
-    position: absolute;
-    bottom: calc(0px - var(--space));
-    left: 0;
+  content: "";
+  position: absolute;
+  bottom: calc(0px - var(--space));
+  left: 0;
 
-    transition-duration: 0.5s;
-    width: var(--icon-width);
-    height: var(--bar-height);
-    background-color: #ffffff;
-    border-radius: var(--bar-radius);
+  transition-duration: 0.5s;
+  width: var(--icon-width);
+  height: var(--bar-height);
+  background-color: #ffffff;
+  border-radius: var(--bar-radius);
 }
 
 #nav__toggle {
-    display: none;
+  display: none;
 }
 
 #nav__toggle:checked~.toggle-btn {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 #nav__toggle:checked~nav {
-    visibility: visible;
-    left: 0;
+  visibility: visible;
+  left: 0;
 
-    transition: 0.25s;
+  transition: 0.25s;
 }
 
 #nav__toggle:checked~.toggle-btn .burger-icon {
-    transition-duration: 0.5s;
-    background: transparent;
+  transition-duration: 0.5s;
+  background: transparent;
 }
 
 #nav__toggle:checked~.toggle-btn .burger-icon::before {
-    transform-origin: center;
-    transition: 0.25s;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotateZ(45deg);
-    background-color: #ff0000;
+  transform-origin: center;
+  transition: 0.25s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(45deg);
+  background-color: #ff0000;
 }
 
 #nav__toggle:checked~.toggle-btn .burger-icon::after {
-    top: 50%;
-    left: 50%;
-    transform-origin: center;
-    transition: 0.25s;
-    transform: translate(-50%, -50%) rotateZ(-45deg);
-    background-color: #ff0000;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  transition: 0.25s;
+  transform: translate(-50%, -50%) rotateZ(-45deg);
+  background-color: #ff0000;
 }
 
 .card {
-    width: 350px;
-    aspect-ratio: 7 / 8;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 4fr 6fr 60px;
+  width: 350px;
+  aspect-ratio: 7 / 8;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr 6fr 60px;
 }
 
 .card__top {
-    width: 100%;
+  width: 100%;
 
-    position: relative;
+  position: relative;
 }
 
 .card__img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .card__top::before {
-    content: url("../../assets/crop-icon.png");
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 33px;
-    height: 66px;
-    transform: translate(0, 50%);
+  content: url("../../assets/crop-icon.png");
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 33px;
+  height: 66px;
+  transform: translate(0, 50%);
 }
 
 .card__top .like__container {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    display: flex;
-    align-items: center;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
 
-    gap: 8px;
+  gap: 8px;
 }
 
 .card__body {
-    width: 100%;
-    padding: 30px;
-    padding-bottom: 40px;
-    background-color: #ffffff;
+  width: 100%;
+  padding: 30px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
 }
 
 .card__footer {
-    width: 100%;
-    background-color: #ffffff;
+  width: 100%;
+  background-color: #ffffff;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    height: 60px;
-    border-top: 3px solid var(--gray-cl);
+  height: 60px;
+  border-top: 3px solid var(--gray-cl);
 }
 
 .card__footer .comment__container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    height: 100%;
-    gap: 8px;
-    padding: 15px;
+  height: 100%;
+  gap: 8px;
+  padding: 15px;
 
-    border-right: 3px solid var(--gray-cl);
+  border-right: 3px solid var(--gray-cl);
 }
 
 .card__footer .action {
-    height: 100%;
-    aspect-ratio: 1 / 1;
-    background-color: var(--gray-cl);
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: var(--gray-cl);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card__footer .dots-icon svg {
-    width: 18px;
+  width: 18px;
 }
 
 .card__footer .comment__container img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .card__top .heart-icon svg {
-    width: 20px;
-    height: 20px;
-    fill: #ffffff;
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
 }
 
 @media only screen and (min-width: 769px) {
-    .card {
-        width: 450px;
-        grid-template-rows: 6fr 7fr 100px;
-    }
+  .card {
+    width: 450px;
+    grid-template-rows: 6fr 7fr 100px;
+  }
 
-    .card__footer {
-        height: 100px;
-    }
+  .card__footer {
+    height: 100px;
+  }
 
-    .card__footer .comment__container {
-        padding: 10px 30px;
-    }
+  .card__footer .comment__container {
+    padding: 10px 30px;
+  }
 
-    .toggle-btn {
-        width: 120px;
-        height: 120px;
-    }
+  .toggle-btn {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
-    .card {
-        width: 380px;
-    }
-    .toggle-btn {
-        position: relative;
+  .card {
+    width: 380px;
+  }
+  .toggle-btn {
+    position: relative;
 
-        height: 100px;
-        width: var(--body-padding-left);
-        box-shadow: none;
-    }
+    height: 100px;
+    width: var(--body-padding-left);
+    box-shadow: none;
+  }
 }

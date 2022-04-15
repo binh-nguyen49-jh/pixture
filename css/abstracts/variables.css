@@ -1,53 +1,53 @@
 :root {
-    --purple-cl: #140327;
-    --gray-cl: #f5f5f5;
+  --purple-cl: #140327;
+  --gray-cl: #f5f5f5;
 
-    --text-light-blue-cl: #b5bbc4;
-    --text-blue-cl: #0d4363;
-    --text-dark-blue-cl: #0c2539;
-    --text-gray-1-cl: #d6d6d6;
-    --text-gray-2-cl: #677278;
-    --text-gray-3-cl: #5c5b61;
+  --text-light-blue-cl: #b5bbc4;
+  --text-blue-cl: #0d4363;
+  --text-dark-blue-cl: #0c2539;
+  --text-gray-1-cl: #d6d6d6;
+  --text-gray-2-cl: #677278;
+  --text-gray-3-cl: #5c5b61;
 
-    --body-padding-left: 35px;
-    --date-padding: 65px;
-    --body-padding-right: 0px;
-    --content-padding-hr: 25px;
-    --content-padding-vt: 30px;
+  --body-padding-left: 35px;
+  --date-padding: 65px;
+  --body-padding-right: 0px;
+  --content-padding-hr: 25px;
+  --content-padding-vt: 30px;
 
-    --primary-font: 'Montserrat', sans-serif;
+  --primary-font: 'Montserrat', sans-serif;
 
-    /*GRID - media queries breakpoints*/
-    --xxs-max: 479px;
-    --xs-max: 769px;
-    --sm-max: 1025px;
-    --md-max: 1279px;
-    --lg-max: 1599px;
-    
+  /*GRID - media queries breakpoints*/
+  --xxs-max: 479px;
+  --xs-max: 769px;
+  --sm-max: 1025px;
+  --md-max: 1279px;
+  --lg-max: 1599px;
+  
 }
 
 @media only screen and (min-width: 479px) {
-    :root {
-        --content-padding-hr: 35px
-    }
+  :root {
+    --content-padding-hr: 35px
+  }
 }
 
 @media only screen and (min-width: 769px) {
-    :root {
-        --body-padding-left: 80px;
-    }
+  :root {
+    --body-padding-left: 80px;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
-    :root {
-        --content-padding-hr: 50px;
-    }
+  :root {
+    --content-padding-hr: 50px;
+  }
 }
 
 @media only screen and (min-width: 1599px) {
-    :root {
-        --body-padding-left: 80px;
-        --content-padding-vt: 80px;
-        --content-padding-hr: 130px;
-    }
+  :root {
+    --body-padding-left: 80px;
+    --content-padding-vt: 80px;
+    --content-padding-hr: 130px;
+  }
 }

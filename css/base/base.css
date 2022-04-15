@@ -1,28 +1,28 @@
 * {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 .--pc{
-    display: none !important;
+  display: none !important;
 }
 
 body {
-    background-color: var(--purple-cl);
+  background-color: var(--purple-cl);
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 @media only screen and (min-width: 1025px){
-    .--mb{
-        display: none !important;
-    }
+  .--mb{
+    display: none !important;
+  }
 
-    .--pc{
-        display: block !important;
-    }
+  .--pc{
+    display: block !important;
+  }
 
-    body {
-        background: center / cover no-repeat url('/assets/main-background.jpg');
-    }
+  body {
+    background: center / cover no-repeat url('/assets/main-background.jpg');
+  }
 }
