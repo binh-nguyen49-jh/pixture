@@ -1,0 +1,153 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5000000;
+}
+
+#nav__toggle:checked {
+    display: none;
+}
+
+header .container,
+header .navbar {
+    height: 100%;
+}
+
+header .navbar {
+    display: flex;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    visibility: hidden;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+    z-index: 1;
+    transition: 0.25s;
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    transform: rotateZ(45deg);
+    gap: 10px;
+}
+
+header .link {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+header .link:hover, header .link.contact:hover {
+    background-color: rgb(85, 0, 255);
+}
+
+header .link:hover a {
+    color: white;
+}
+
+header .link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+
+    font-family: var(--primary-font);
+    text-decoration: none;
+    color: var(--text-dark-blue-cl);
+    font-size: 2rem;
+    line-height: 2.1rem;
+
+    transform: rotateZ(-45deg);
+}
+
+header .link.contact {
+    background-color: var(--text-dark-blue-cl);
+}
+
+header .link.contact.--pc a {
+    width: fit-content;
+    height: 100px;
+}
+
+header .link.contact.--pc {
+    position: fixed;
+    top: 0;
+    right: calc(50px + var(--body-padding-right));
+
+    background-color: transparent;
+    width: fit-content;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .link.contact.--pc a {
+    transform: none;
+}
+
+@media only screen and (min-width: 1025px) {
+    header {
+        height: 130px;
+    }
+
+    header nav {
+        width: 30%;
+    }
+    header nav ul {
+        display: flex;
+        flex-flow: column;
+        transform: none;
+        gap: 10px;
+        width: 100%;
+    }
+
+    header .link {
+        background-color: transparent;
+    }
+
+    header .link a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 100%;
+        color: white;
+        font-size: 4rem;
+    
+        transform: none;
+    }
+    
+    header .link:hover {
+        background-color: white;
+    }
+
+    header .link:hover a {
+        color: black;
+    }
+
+    header nav::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -98px;
+
+        border-style: solid;
+        border-width: 100vh 100px 0 0;
+        border-color: black transparent transparent transparent;
+    }
+}
