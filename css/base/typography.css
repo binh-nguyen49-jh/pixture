@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/helvetica-2');
 @font-face {
-  font-family: "Museo Sans Rounded";
-  src: url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.eot");
-  src: url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/470ad2519927fa4eedb66fdcd82af115.svg#Museo Sans Rounded 700") format("svg");
+  font-family: 'Museo Sans Rounded';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Museo Sans Rounded'), url('https://fonts.cdnfonts.com/s/27145/MuseoSansRounded500.woff') format('woff');
+}
+@font-face {
+  font-family: 'Museo Sans Rounded';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Museo Sans Rounded'), url('https://fonts.cdnfonts.com/s/27145/MuseoSansRounded900.woff') format('woff');
 }
 
 html {
@@ -165,11 +168,11 @@ footer .text {
   color: var(--text-gray-3-cl);
 }
 
-@media only screen and (min-width: 479px) {
+@media only screen and (min-width: 480px) {
   
 }
 
-@media only screen and (min-width:769px) { 
+@media only screen and (min-width:768px) { 
   .subtitle {
     font-size: 2.4rem;
   }
@@ -270,7 +273,7 @@ footer .text {
   }  
 }
 
-@media only screen and (min-width:1025px) {
+@media only screen and (min-width:1024px) {
   .subtitle {
     font-size: 2.4rem;
   }

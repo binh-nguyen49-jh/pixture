@@ -18,33 +18,33 @@
   --primary-font: 'Montserrat', sans-serif;
 
   /*GRID - media queries breakpoints*/
-  --xxs-max: 479px;
-  --xs-max: 769px;
-  --sm-max: 1025px;
+  --xxs-max: 480px;
+  --xs-max: 768px;
+  --sm-max: 1024px;
   --md-max: 1279px;
-  --lg-max: 1599px;
+  --lg-max: 1600px;
   
 }
 
-@media only screen and (min-width: 479px) {
+@media only screen and (min-width: 480px) {
   :root {
     --content-padding-hr: 35px
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   :root {
     --body-padding-left: 80px;
   }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   :root {
     --content-padding-hr: 50px;
   }
 }
 
-@media only screen and (min-width: 1599px) {
+@media only screen and (min-width: 1600px) {
   :root {
     --body-padding-left: 80px;
     --content-padding-vt: 80px;

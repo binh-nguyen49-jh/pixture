@@ -77,12 +77,12 @@ header .link.contact {
   background-color: var(--text-dark-blue-cl);
 }
 
-header .link.contact.--pc a {
+header .link.contact.--onlyDesktop a {
   width: fit-content;
   height: 100px;
 }
 
-header .link.contact.--pc {
+header .link.contact.--onlyDesktop {
   position: fixed;
   top: 0;
   right: calc(50px + var(--body-padding-right));
@@ -96,11 +96,11 @@ header .link.contact.--pc {
   justify-content: center;
 }
 
-header .link.contact.--pc a {
+header .link.contact.--onlyDesktop a {
   transform: none;
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   header {
     height: 130px;
   }

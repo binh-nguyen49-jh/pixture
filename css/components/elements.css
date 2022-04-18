@@ -101,6 +101,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 4fr 6fr 60px;
+  pointer-events: none;
 }
 
 .card__top {
@@ -190,7 +191,7 @@
   fill: #ffffff;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .card {
     width: 450px;
     grid-template-rows: 6fr 7fr 100px;
@@ -210,7 +211,7 @@
   }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   .card {
     width: 380px;
   }

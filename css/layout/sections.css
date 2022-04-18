@@ -235,13 +235,13 @@ section {
   max-width: 70%;
 }
 
-@media only screen and (min-width: 479px) {
+@media only screen and (min-width: 480px) {
   .masthead__banner .title {
     max-width: 350px;
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .masthead__banner .title {
     max-width: 450px;
   }
@@ -256,7 +256,7 @@ section {
     row-gap: 40px;
   }
 }
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   .passion .masthead__aside .aside__tabs {
     visibility: visible;
   }
@@ -418,7 +418,7 @@ section {
    }
 }
 
-@media only screen and (min-width: 1599px) {
+@media only screen and (min-width: 1600px) {
   .masthead .masthead__banner .title {
     width: 700px;
   }

@@ -19,13 +19,13 @@ footer .container > ul {
   flex-flow: column;
   gap: 5px;
 }
-@media only screen and (min-width: 479px) {
+@media only screen and (min-width: 480px) {
   footer .container > ul {
     grid-template-columns: 1fr 1fr;
   }   
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   footer .container {
     padding: var(--content-padding-vt) calc(var(--content-padding-hr) + var(--body-padding-left));
     padding-bottom: 100px;

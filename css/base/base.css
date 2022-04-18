@@ -2,7 +2,7 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-.--pc{
+.--onlyDesktop{
   display: none !important;
 }
 
@@ -13,12 +13,12 @@ body {
 html {
   scroll-behavior: smooth;
 }
-@media only screen and (min-width: 1025px){
-  .--mb{
+@media only screen and (min-width: 1024px){
+  .--onlyMobile{
     display: none !important;
   }
 
-  .--pc{
+  .--onlyDesktop{
     display: block !important;
   }
 

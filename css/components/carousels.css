@@ -14,6 +14,8 @@
   
   position: relative;
   scroll-behavior: smooth;
+
+  cursor: grab;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 .carousel__container::-webkit-scrollbar {
@@ -28,12 +30,17 @@
 }
 
 .carousel ul {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
   display: flex;
   gap: 20px;
-  
+  pointer-events: none;
+  will-change: left, top;
+  transition: 0.25s;
 }
-
-@media only screen and (min-width: 1025px) {  
+@media only screen and (min-width: 1024px) {  
   .carousel {
     display: grid;
     grid-template-columns: auto 200px;
