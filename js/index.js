@@ -10,6 +10,7 @@ function DraggableSlide(htmlElement) {
   this.outerElement.addEventListener('touchstart', (event) => this.onDragStart(event));
   this.outerElement.addEventListener('touchend', (event) => this.onDragEnd(event));
   this.outerElement.addEventListener('touchmove', (event) => this.onDrag(event));
+
   window.addEventListener('mouseup', (event) => {
     this.isDragging = false;
   });
