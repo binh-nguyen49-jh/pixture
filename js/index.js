@@ -26,6 +26,10 @@ function DraggableSlide(htmlElement) {
 
   this.onDragStart = function (event) {
     event.preventDefault();
+    // if width of inner element is lower thant the outer element, do not allow dragging
+    if (this.innerElement.offsetWidth < this.outerElement.offsetWidth) {
+      return;
+    }
     this.isDragging = true;
     this.startX = event.offsetX - this.innerElement.offsetLeft;
     this.innerElement.style.transition = "none";
